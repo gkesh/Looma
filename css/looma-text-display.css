@@ -1,0 +1,33 @@
+
+.text-display{
+    height: 100%;
+    width:  100%;
+    padding:2vh 2vw;
+    background-color:white;
+    color:#091F48;
+    font-weight:bold !important;
+    vertical-align:middle;
+
+    font-size: inherit !important;
+    /*overflow:hidden;*/
+    white-space:nowrap !important;
+    text-overflow:ellipsis;
+}
+
+
+.text-display * {
+    text-overflow:ellipsis !important;
+    overflow:hidden;
+    white-space:nowrap !important;
+    font-size:inherit !important;
+    font-weight:bold !important;
+    
+    max-width: 100%;
+    min-width: 100%;
+    
+    padding:0 !important;
+    margin: 0 !important;
+}
+
+.text-display:fullscreen {transform:scale(2,2);
+    background-color:pink;}

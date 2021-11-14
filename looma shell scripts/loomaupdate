@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#  filename: loomaupdate
+#   VERSION: 2.0
+#       put this file in /usr/local/bin on each looma
+#       with chmod +x to make it executable
+#
+#       this file just calls /var/www/html/Looma/looma schell scripts/loomaupdater
+#       this allows us to 'update' the updater script using the normal rsync from rsync.net
+#
+#       author: skip
+#       date:   JUN 2019
+echo "******************************"
+echo " - - - UPDATING LOOMA - - - "
+echo "******************************"
+source "/var/www/html/Looma/looma shell scripts/loomaupdater"
+echo "*************DONE*************"
